@@ -18,13 +18,13 @@ int main()
     int numero_de_tentativas;
     
     if (dificuldade == 'F'){
-        numero_de_tentativas = 15;
+        numero_de_tentativas = 20;
     }
     else if (dificuldade == 'M'){
-        numero_de_tentativas = 10;
+        numero_de_tentativas = 15;
     }
     else{
-        numero_de_tentativas = 5;
+        numero_de_tentativas = 6;
     }
 
     srand(time(NULL));
